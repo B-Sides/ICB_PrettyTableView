@@ -1,0 +1,15 @@
+# xcode noise
+build/*
+*.pbxuser
+*.mode1v3
+xcuserdata
+
+# auto git version noise
+InfoPlist.h
+
+# old skool
+.svn
+
+# osx noise
+.DS_Store
+profile

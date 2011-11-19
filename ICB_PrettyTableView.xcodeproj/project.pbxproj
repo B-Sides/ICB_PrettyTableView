@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AD37DCD1475936F006E9D1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD37DCC1475936F006E9D1B /* UIKit.framework */; };
+		1AD37DCF1475936F006E9D1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD37DCE1475936F006E9D1B /* Foundation.framework */; };
+		1AD37DD11475936F006E9D1B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD37DD01475936F006E9D1B /* CoreGraphics.framework */; };
+		1AD37DD71475936F006E9D1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AD37DD51475936F006E9D1B /* InfoPlist.strings */; };
+		1AD37DD91475936F006E9D1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD37DD81475936F006E9D1B /* main.m */; };
+		1AD37DDD1475936F006E9D1B /* ICBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD37DDC1475936F006E9D1B /* ICBAppDelegate.m */; };
+		1AD37DE01475936F006E9D1B /* ICBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD37DDF1475936F006E9D1B /* ICBTableViewController.m */; };
+		1AD37DEE14759594006E9D1B /* ICBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD37DED14759594006E9D1B /* ICBTableViewCell.m */; };
+		1AD37DF51475A4E8006E9D1B /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD37DF41475A4E8006E9D1B /* AddressBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AD37DC81475936F006E9D1B /* ICB_PrettyTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICB_PrettyTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD37DCC1475936F006E9D1B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1AD37DCE1475936F006E9D1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1AD37DD01475936F006E9D1B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1AD37DD41475936F006E9D1B /* ICB_PrettyTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ICB_PrettyTableView-Info.plist"; sourceTree = "<group>"; };
+		1AD37DD61475936F006E9D1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1AD37DD81475936F006E9D1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AD37DDA1475936F006E9D1B /* ICB_PrettyTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ICB_PrettyTableView-Prefix.pch"; sourceTree = "<group>"; };
+		1AD37DDB1475936F006E9D1B /* ICBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICBAppDelegate.h; sourceTree = "<group>"; };
+		1AD37DDC1475936F006E9D1B /* ICBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICBAppDelegate.m; sourceTree = "<group>"; };
+		1AD37DDE1475936F006E9D1B /* ICBTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICBTableViewController.h; sourceTree = "<group>"; };
+		1AD37DDF1475936F006E9D1B /* ICBTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICBTableViewController.m; sourceTree = "<group>"; };
+		1AD37DEC14759594006E9D1B /* ICBTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICBTableViewCell.h; sourceTree = "<group>"; };
+		1AD37DED14759594006E9D1B /* ICBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICBTableViewCell.m; sourceTree = "<group>"; };
+		1AD37DF41475A4E8006E9D1B /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AD37DC51475936F006E9D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD37DF51475A4E8006E9D1B /* AddressBook.framework in Frameworks */,
+				1AD37DCD1475936F006E9D1B /* UIKit.framework in Frameworks */,
+				1AD37DCF1475936F006E9D1B /* Foundation.framework in Frameworks */,
+				1AD37DD11475936F006E9D1B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AD37DBD1475936F006E9D1B = {
+			isa = PBXGroup;
+			children = (
+				1AD37DF41475A4E8006E9D1B /* AddressBook.framework */,
+				1AD37DD21475936F006E9D1B /* ICB_PrettyTableView */,
+				1AD37DCB1475936F006E9D1B /* Frameworks */,
+				1AD37DC91475936F006E9D1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AD37DC91475936F006E9D1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AD37DC81475936F006E9D1B /* ICB_PrettyTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AD37DCB1475936F006E9D1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AD37DCC1475936F006E9D1B /* UIKit.framework */,
+				1AD37DCE1475936F006E9D1B /* Foundation.framework */,
+				1AD37DD01475936F006E9D1B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AD37DD21475936F006E9D1B /* ICB_PrettyTableView */ = {
+			isa = PBXGroup;
+			children = (
+				1AD37DDB1475936F006E9D1B /* ICBAppDelegate.h */,
+				1AD37DDC1475936F006E9D1B /* ICBAppDelegate.m */,
+				1AD37DDE1475936F006E9D1B /* ICBTableViewController.h */,
+				1AD37DDF1475936F006E9D1B /* ICBTableViewController.m */,
+				1AD37DEC14759594006E9D1B /* ICBTableViewCell.h */,
+				1AD37DED14759594006E9D1B /* ICBTableViewCell.m */,
+				1AD37DD31475936F006E9D1B /* Supporting Files */,
+			);
+			name = ICB_PrettyTableView;
+			path = ICBPrettyTableView;
+			sourceTree = "<group>";
+		};
+		1AD37DD31475936F006E9D1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AD37DD41475936F006E9D1B /* ICB_PrettyTableView-Info.plist */,
+				1AD37DD51475936F006E9D1B /* InfoPlist.strings */,
+				1AD37DD81475936F006E9D1B /* main.m */,
+				1AD37DDA1475936F006E9D1B /* ICB_PrettyTableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AD37DC71475936F006E9D1B /* ICB_PrettyTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD37DE61475936F006E9D1B /* Build configuration list for PBXNativeTarget "ICB_PrettyTableView" */;
+			buildPhases = (
+				1AD37DC41475936F006E9D1B /* Sources */,
+				1AD37DC51475936F006E9D1B /* Frameworks */,
+				1AD37DC61475936F006E9D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ICB_PrettyTableView;
+			productName = ICBPrettyTableView;
+			productReference = 1AD37DC81475936F006E9D1B /* ICB_PrettyTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AD37DBF1475936F006E9D1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1AD37DC21475936F006E9D1B /* Build configuration list for PBXProject "ICB_PrettyTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1AD37DBD1475936F006E9D1B;
+			productRefGroup = 1AD37DC91475936F006E9D1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AD37DC71475936F006E9D1B /* ICB_PrettyTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AD37DC61475936F006E9D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD37DD71475936F006E9D1B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AD37DC41475936F006E9D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD37DD91475936F006E9D1B /* main.m in Sources */,
+				1AD37DDD1475936F006E9D1B /* ICBAppDelegate.m in Sources */,
+				1AD37DE01475936F006E9D1B /* ICBTableViewController.m in Sources */,
+				1AD37DEE14759594006E9D1B /* ICBTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1AD37DD51475936F006E9D1B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD37DD61475936F006E9D1B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AD37DE41475936F006E9D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1AD37DE51475936F006E9D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AD37DE71475936F006E9D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ICBPrettyTableView/ICB_PrettyTableView-Prefix.pch";
+				INFOPLIST_FILE = "ICBPrettyTableView/ICB_PrettyTableView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1AD37DE81475936F006E9D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ICBPrettyTableView/ICB_PrettyTableView-Prefix.pch";
+				INFOPLIST_FILE = "ICBPrettyTableView/ICB_PrettyTableView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AD37DC21475936F006E9D1B /* Build configuration list for PBXProject "ICB_PrettyTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD37DE41475936F006E9D1B /* Debug */,
+				1AD37DE51475936F006E9D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD37DE61475936F006E9D1B /* Build configuration list for PBXNativeTarget "ICB_PrettyTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD37DE71475936F006E9D1B /* Debug */,
+				1AD37DE81475936F006E9D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AD37DBF1475936F006E9D1B /* Project object */;
+}
